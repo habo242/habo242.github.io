@@ -99,12 +99,12 @@ sub {
 }
 
 img {
-  width: auto\9;
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
+	width: auto\9;
+	height: auto;
+	max-width: 50%;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
 }
 
 #map_canvas img,
@@ -224,10 +224,6 @@ textarea {
 body {
 background-image: url('../img/back.jpg');
  no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     margin-top: 12%;    
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -235,7 +231,9 @@ background-image: url('../img/back.jpg');
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
+   
 }
+
 
 a {
   color: #0088cc;
